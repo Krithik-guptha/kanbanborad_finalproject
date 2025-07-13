@@ -1,0 +1,14 @@
+Given I am on the "Add New Recipe" page
+
+When I enter "Pasta Carbonara" in the title field
+
+And I enter "Spaghetti, Eggs, Pancetta" in the ingredients field
+
+And I enter "Boil pasta, Cook pancetta..." in the instructions field
+
+And I click the "Save Recipe" button
+
+Then I should see "Pasta Carbonara" in my list of recipes
+
+And the recipe details should match what I entered.
+
