@@ -1,0 +1,9 @@
+Given I have multiple recipes saved, including "Chicken Curry"
+
+And I am viewing the list of all recipes
+
+When I click on "Chicken Curry"
+
+Then I should be taken to the detailed view for "Chicken Curry"
+
+And I should see its full ingredients and instructions.
