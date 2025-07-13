@@ -1,2 +1,3 @@
 "As a... I need... So that..." story template
 Gherkin "Given... When... Then..." for acceptance criteria
+ Label all stories (Product Backlog first)
